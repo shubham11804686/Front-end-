@@ -1,0 +1,67 @@
+body{
+    font-family:'Courgette';
+    
+    background-image: url("book-1822474_1920.jpg");
+background-attachment: fixed;
+
+}
+.title{
+font-family:'Courgette';
+color: rgba(7, 5, 5, 0.945);
+}
+.navbar{
+background-color: black;
+border-radius: 30px;
+font-family:'Courgette';
+
+}
+.navbar ul{
+overflow: auto;
+}
+.navbar li{
+float:left;
+list-style: none; 
+margin: 13px 20px;
+
+}
+.navbar li a{
+padding: 3px 3px;
+text-decoration: none;
+color: white;
+}
+.navbar li a:hover{
+color: red
+}
+.search{
+float: right;
+color: white;
+padding: 12px 75px;
+}
+.navbar input{
+border: 2px solid black;
+border-radius: 14px;
+padding: 3px 17px;
+width: 129px;
+}
+.h1{
+    color: rgb(21, 0, 214);
+}
+.button{
+background-color: #929992;  
+color:  black; 
+padding: 2px 5px;  
+margin: 8px 0;  
+border: 2px solid black;  
+cursor: pointer;  
+width: 20%;  
+opacity: 0.9
+}
+.content{
+    font-family:'Courgette';
+color: rgb(189, 52, 109);
+font-size: 50px;
+}
+.content1{
+    font-family:'Courgette';
+color: rgb(51, 22, 36);
+}
